@@ -1,0 +1,295 @@
+{
+  "imageGeneration": false,
+  "colourAdjustments": false,
+  "composition": "Original left; cinematic right. Same crop and scale for both variants.",
+  "resizing": "Downscale only, Lanczos",
+  "encoding": "Lossless WebP",
+  "layout": {
+    "backgroundRGB": [
+      16,
+      24,
+      32
+    ],
+    "labelRGB": [
+      220,
+      226,
+      233
+    ],
+    "font": "Arial",
+    "labels": [
+      "Original",
+      "Cinematic"
+    ],
+    "sizes": {
+      "comparison": [
+        640,
+        640,
+        8,
+        8,
+        36,
+        24,
+        56,
+        612
+      ],
+      "card": [
+        320,
+        400,
+        4,
+        4,
+        24,
+        12,
+        40,
+        376
+      ],
+      "cover": [
+        1280,
+        720,
+        8,
+        8,
+        36,
+        24,
+        62,
+        688
+      ]
+    }
+  },
+  "games": {
+    "jak1": {
+      "captures": [
+        {
+          "variant": "original",
+          "file": "jak-original-front.png",
+          "sha256": "7f5d32dc3e0dd59d45e855c9727f561d77430d4758c5a32b9b333f33d89de8e2"
+        },
+        {
+          "variant": "cinematic",
+          "file": "jak-cinematic-front.png",
+          "sha256": "d4019dfdac625721944abb90a93dad4cb1a0ecb2dcd21637b8c3b343de1b1a94"
+        }
+      ],
+      "captureNote": "Fixed-mouth build, November 2026; OpenGOAL v0.3.9.",
+      "pairLandmarks": {
+        "centreX": 958,
+        "subjectTop": 144,
+        "bootBaseline": 860
+      },
+      "outputs": {
+        "comparison": {
+          "file": "jak1-comparison.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sharedSourceCrop": [
+            759.68345323741,
+            118.24460431654677,
+            1156.31654676259,
+            885.7553956834532
+          ],
+          "sharedScale": 0.776536312849162,
+          "subjectTop": 56,
+          "bootBaseline": 612,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "cee4c58073de4deb86661e2e03b35c64360dfa89bc1e020cc2bcab7b615a0077",
+          "bytes": 394456
+        },
+        "card": {
+          "file": "jak1-card.webp",
+          "dimensions": [
+            320,
+            400
+          ],
+          "sharedSourceCrop": [
+            793.9166666666666,
+            109.9047619047619,
+            1122.0833333333333,
+            902.6190476190476
+          ],
+          "sharedScale": 0.4692737430167598,
+          "subjectTop": 40,
+          "bootBaseline": 376,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "4308ac742aa3e95355fc500a4c21f8d7609d132562f6b8e7c8b0cd8428d99829",
+          "bytes": 140196
+        },
+        "cover": {
+          "file": "jak1-cover.webp",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "sharedSourceCrop": [
+            598.8562300319488,
+            114.26198083067092,
+            1317.143769968051,
+            887.4504792332268
+          ],
+          "sharedScale": 0.8743016759776536,
+          "subjectTop": 62,
+          "bootBaseline": 688,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "ec9138dd118420d7048c77bc591373daad409a8cec19a2a15e82dd8132020881",
+          "bytes": 820616
+        }
+      }
+    },
+    "jak2": {
+      "captures": [
+        {
+          "variant": "original",
+          "file": "jak2-original.png",
+          "sha256": "92a278671cea2b50a024f1cfc66db4391f816d02fd4150d5e6141a7ba9a89c63"
+        },
+        {
+          "variant": "cinematic",
+          "file": "jak2-cinematic.png",
+          "sha256": "98cfe7c55eab0b20b4ec890724f8e0c718e162e14458f861e2a6aff2ac733253"
+        }
+      ],
+      "captureNote": "OpenGOAL v0.3.9, EU; stable 0.3.0 model code. Matched frontal pose, camera and lighting, with native facial callbacks retained. Background actor timing differs.",
+      "pairLandmarks": {
+        "centreX": 960,
+        "subjectTop": 96,
+        "bootBaseline": 840
+      },
+      "outputs": {
+        "comparison": {
+          "file": "jak2-comparison.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sharedSourceCrop": [
+            753.9280575539568,
+            69.23741007194245,
+            1166.071942446043,
+            866.7625899280575
+          ],
+          "sharedScale": 0.7473118279569892,
+          "subjectTop": 56,
+          "bootBaseline": 612,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "cbb56fd1cc08b09d98e758cf5ca53c5689079bfd98e434b78e275a0462670843",
+          "bytes": 390994
+        },
+        "card": {
+          "file": "jak2-card.webp",
+          "dimensions": [
+            320,
+            400
+          ],
+          "sharedSourceCrop": [
+            789.5,
+            60.57142857142857,
+            1130.5,
+            884.2857142857143
+          ],
+          "sharedScale": 0.45161290322580644,
+          "subjectTop": 40,
+          "bootBaseline": 376,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "ef8aab488c44663fa925345ed1ef59c6f444edd346c968f409bd3aa8ba8fea5c",
+          "bytes": 141402
+        },
+        "cover": {
+          "file": "jak2-cover.webp",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "sharedSourceCrop": [
+            586.811501597444,
+            65.09904153354633,
+            1333.188498402556,
+            868.5239616613419
+          ],
+          "sharedScale": 0.8413978494623656,
+          "subjectTop": 62,
+          "bootBaseline": 688,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "2fe930b7aa5581818511aa64990245c3bcf1c184e857fe6809e99e7f79896a8e",
+          "bytes": 801830
+        }
+      }
+    },
+    "jak3": {
+      "captures": [
+        {
+          "variant": "original",
+          "file": "revision3-original-jak-front.png",
+          "sha256": "caf58115b8ca5173cb5e38cc4715789d37fc303ba69a14d2d5c96d4c64847f8d"
+        },
+        {
+          "variant": "cinematic",
+          "file": "revision5-hq-jak-front.png",
+          "sha256": "b87a4e2ac48dddd3e1007c82d03f5dfcaca1072f7fae48f77975a1027d3e8fb3"
+        }
+      ],
+      "captureNote": "Verified full-body standing pair used by the existing Jak 3 comparison; OpenGOAL v0.3.8.",
+      "pairLandmarks": {
+        "centreX": 956,
+        "subjectTop": 120,
+        "bootBaseline": 912
+      },
+      "outputs": {
+        "comparison": {
+          "file": "jak3-comparison.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sharedSourceCrop": [
+            736.6330935251799,
+            91.51079136690647,
+            1175.36690647482,
+            940.4892086330935
+          ],
+          "sharedScale": 0.702020202020202,
+          "subjectTop": 56,
+          "bootBaseline": 612,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "10e9b5f29b56ae9c3da0142428c256f902aee30140e897be1ce637cac7b386fc",
+          "bytes": 470168
+        },
+        "card": {
+          "file": "jak3-card.webp",
+          "dimensions": [
+            320,
+            400
+          ],
+          "sharedSourceCrop": [
+            774.5,
+            82.28571428571428,
+            1137.5,
+            959.1428571428571
+          ],
+          "sharedScale": 0.42424242424242425,
+          "subjectTop": 40,
+          "bootBaseline": 376,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "44d0f8dee5eec942cde64eb69e4d2a9da0892f4175dcd4005c343c2d0c307714",
+          "bytes": 167074
+        },
+        "cover": {
+          "file": "jak3-cover.webp",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "sharedSourceCrop": [
+            558.7348242811502,
+            87.10543130990416,
+            1353.2651757188498,
+            942.3642172523961
+          ],
+          "sharedScale": 0.7904040404040404,
+          "subjectTop": 62,
+          "bootBaseline": 688,
+          "decodedPixelsMatchCompositionExactly": true,
+          "sha256": "38646b6d33ac2edb2373d73d89d4592a2118cd49b45c6b3db9569b013474a4c1",
+          "bytes": 980218
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceName": "The Cinematic Legacy",
+  "lastUpdated": "2026-11-13T12:23:22Z",
+  "mods": {
+    "jak1-cinematic-models": {
+      "displayName": "Jak and Daxter: The Cinematic Legacy",
+      "description": "Cinematic character models in Jak and Daxter gameplay.",
+      "authors": [
+        "@jacopobassan"
+      ],
+      "tags": [
+        "graphics",
+        "character-models"
+      ],
+      "supportedGames": [
+        "jak1"
+      ],
+      "websiteUrl": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1",
+      "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak1-cover.webp",
+      "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak1-card.webp",
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishedDate": "2026-11-12T19:56:10Z",
+          "supportedGames": [
+            "jak1"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.0/windows-v0.3.0.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.0/linux-v0.3.0.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.0/macos-arm64-v0.3.0.tar.gz"
+          }
+        }
+      ]
+    },
+    "jak2-cinematic-models": {
+      "displayName": "Jak II: The Cinematic Legacy",
+      "description": "Cinematic character models in Jak II gameplay.",
+      "authors": [
+        "@jacopobassan"
+      ],
+      "tags": [
+        "graphics",
+        "character-models"
+      ],
+      "supportedGames": [
+        "jak2"
+      ],
+      "websiteUrl": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2",
+      "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak2-cover.webp",
+      "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak2-card.webp",
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishedDate": "2026-11-12T19:56:13Z",
+          "supportedGames": [
+            "jak2"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.0/windows-v0.3.0.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.0/linux-v0.3.0.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.0/macos-arm64-v0.3.0.tar.gz"
+          }
+        }
+      ]
+    },
+    "jak3-cinematic-models": {
+      "displayName": "Jak 3: The Cinematic Legacy",
+      "description": "Cinematic character models in Jak 3 gameplay.",
+      "authors": [
+        "@jacopobassan"
+      ],
+      "tags": [
+        "graphics",
+        "character-models"
+      ],
+      "supportedGames": [
+        "jak3"
+      ],
+      "websiteUrl": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3",
+      "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-cover.webp",
+      "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-card.webp",
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishedDate": "2026-11-12T19:56:16Z",
+          "supportedGames": [
+            "jak3"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.0/windows-v0.3.0.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.0/linux-v0.3.0.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.0/macos-arm64-v0.3.0.tar.gz"
+          }
+        }
+      ]
+    }
+  },
+  "texturePacks": {}
+}
