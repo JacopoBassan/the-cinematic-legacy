@@ -1,8 +1,7 @@
 {
   "imageGeneration": false,
-  "colourAdjustments": false,
   "composition": "Original left; cinematic right. Same crop and scale for both variants.",
-  "resizing": "Downscale only, Lanczos",
+  "resizing": "Downscale only, Lanczos; the same scale is applied to both panels in each output.",
   "encoding": "Lossless WebP",
   "layout": {
     "backgroundRGB": [
@@ -20,7 +19,7 @@
       "Original",
       "Cinematic"
     ],
-    "sizes": {
+    "jak3Sizes": {
       "comparison": [
         640,
         640,
@@ -51,28 +50,62 @@
         62,
         688
       ]
+    },
+    "updatedGames": [
+      "jak1",
+      "jak2"
+    ],
+    "jak1Jak2Composition": "Uniformly fit the complete paired source panels inside equal panes; no stretching or independent character scaling.",
+    "outputDimensions": {
+      "comparison": [
+        640,
+        640
+      ],
+      "card": [
+        320,
+        400
+      ],
+      "cover": [
+        1280,
+        720
+      ]
     }
   },
   "games": {
     "jak1": {
+      "sourceComparison": {
+        "repository": "JacopoBassan/the-cinematic-legacy-jak1",
+        "file": "docs/comparisons/jak1/jak-front-467c555b9af9.webp",
+        "sha256": "467c555b9af9691b2bf6996f0a9ae97ad8df4faeace64ea88f0f0f7462a896c7",
+        "dimensions": [
+          892,
+          868
+        ]
+      },
       "captures": [
         {
           "variant": "original",
-          "file": "jak-original-front.png",
-          "sha256": "7f5d32dc3e0dd59d45e855c9727f561d77430d4758c5a32b9b333f33d89de8e2"
+          "sourcePngSha256": "9986a477023d66a1058a53711d542632e1333041a42097dbae3db62f5621caa4",
+          "sourceComparisonPanelRect": [
+            0,
+            48,
+            440,
+            868
+          ]
         },
         {
           "variant": "cinematic",
-          "file": "jak-cinematic-front.png",
-          "sha256": "d4019dfdac625721944abb90a93dad4cb1a0ecb2dcd21637b8c3b343de1b1a94"
+          "sourcePngSha256": "1b364b28580353e7f981b86527b63d5a729d10d429749dad28690b53ada7e46f",
+          "sourceComparisonPanelRect": [
+            452,
+            48,
+            892,
+            868
+          ]
         }
       ],
-      "captureNote": "Fixed-mouth build, November 2026; OpenGOAL v0.3.9.",
-      "pairLandmarks": {
-        "centreX": 958,
-        "subjectTop": 144,
-        "bootBaseline": 860
-      },
+      "captureNote": "OpenGOAL v0.3.9, EU. Matched native pose and camera. Original and cinematic panel pixels are extracted exactly from the current game comparison.",
+      "sourceCaptureTime": "17:00",
       "outputs": {
         "comparison": {
           "file": "jak1-comparison.webp",
@@ -80,18 +113,47 @@
             640,
             640
           ],
-          "sharedSourceCrop": [
-            759.68345323741,
-            118.24460431654677,
-            1156.31654676259,
-            885.7553956834532
+          "sharedScale": 0.6878048780487804,
+          "sharedSourcePanelDimensions": [
+            440,
+            820
           ],
-          "sharedScale": 0.776536312849162,
-          "subjectTop": 56,
-          "bootBaseline": 612,
+          "resizedPanelDimensions": [
+            303,
+            564
+          ],
+          "placements": [
+            {
+              "variant": "original",
+              "destinationRect": [
+                10,
+                48,
+                313,
+                612
+              ]
+            },
+            {
+              "variant": "cinematic",
+              "destinationRect": [
+                326,
+                48,
+                629,
+                612
+              ]
+            }
+          ],
+          "backgroundRGB": [
+            16,
+            24,
+            32
+          ],
+          "header": 48,
+          "gap": 8,
+          "margin": 8,
+          "bottomMargin": 28,
           "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "cee4c58073de4deb86661e2e03b35c64360dfa89bc1e020cc2bcab7b615a0077",
-          "bytes": 394456
+          "sha256": "9cd04c0ad14119f10a27b34de534995a3a7e3d067c23ff52c89c4d0505d3959f",
+          "bytes": 442946
         },
         "card": {
           "file": "jak1-card.webp",
@@ -99,18 +161,47 @@
             320,
             400
           ],
-          "sharedSourceCrop": [
-            793.9166666666666,
-            109.9047619047619,
-            1122.0833333333333,
-            902.6190476190476
+          "sharedScale": 0.35,
+          "sharedSourcePanelDimensions": [
+            440,
+            820
           ],
-          "sharedScale": 0.4692737430167598,
-          "subjectTop": 40,
-          "bootBaseline": 376,
+          "resizedPanelDimensions": [
+            154,
+            287
+          ],
+          "placements": [
+            {
+              "variant": "original",
+              "destinationRect": [
+                4,
+                68,
+                158,
+                355
+              ]
+            },
+            {
+              "variant": "cinematic",
+              "destinationRect": [
+                162,
+                68,
+                316,
+                355
+              ]
+            }
+          ],
+          "backgroundRGB": [
+            16,
+            24,
+            32
+          ],
+          "header": 36,
+          "gap": 4,
+          "margin": 4,
+          "bottomMargin": 12,
           "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "4308ac742aa3e95355fc500a4c21f8d7609d132562f6b8e7c8b0cd8428d99829",
-          "bytes": 140196
+          "sha256": "6d557599dc247aa284ce0dd8172b2b2673a5262d9e1dead961134ecb863ce1a9",
+          "bytes": 138360
         },
         "cover": {
           "file": "jak1-cover.webp",
@@ -118,40 +209,90 @@
             1280,
             720
           ],
-          "sharedSourceCrop": [
-            598.8562300319488,
-            114.26198083067092,
-            1317.143769968051,
-            887.4504792332268
+          "sharedScale": 0.7853658536585366,
+          "sharedSourcePanelDimensions": [
+            440,
+            820
           ],
-          "sharedScale": 0.8743016759776536,
-          "subjectTop": 62,
-          "bootBaseline": 688,
+          "resizedPanelDimensions": [
+            346,
+            644
+          ],
+          "placements": [
+            {
+              "variant": "original",
+              "destinationRect": [
+                149,
+                48,
+                495,
+                692
+              ]
+            },
+            {
+              "variant": "cinematic",
+              "destinationRect": [
+                785,
+                48,
+                1131,
+                692
+              ]
+            }
+          ],
+          "backgroundRGB": [
+            16,
+            24,
+            32
+          ],
+          "header": 48,
+          "gap": 8,
+          "margin": 8,
+          "bottomMargin": 28,
           "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "ec9138dd118420d7048c77bc591373daad409a8cec19a2a15e82dd8132020881",
-          "bytes": 820616
+          "sha256": "479173688b6aa6dd543d91620d9f473d484e3ef219f392e16a5c7c647825dea3",
+          "bytes": 561278
         }
+      },
+      "captureBuild": {
+        "openGoalVersion": "v0.3.9",
+        "platform": "windows-x64",
+        "rigSourceSha256": "bdb068794ed9a8060779dc22fd01cd885120937f6574f1cb744ce71338cd7687",
+        "jakPrototypeSha256": "cfa9c3da73d60872caf3caec745ff8e0c4814201638b7e649e35d3b20c47d82f",
+        "cinematicGameFr3Sha256": "d397fdb1a8ca8c23104ac66d31b616312c50912ec56d736223351482cdaaa1aa"
       }
     },
     "jak2": {
+      "sourceComparison": {
+        "repository": "JacopoBassan/the-cinematic-legacy-jak2",
+        "file": "docs/comparisons/jak2/jak-front.webp",
+        "sha256": "6749ef5af37231059b94df322c5e04d6941f75fca7bb348d8ffd4a57da37db96",
+        "dimensions": [
+          1072,
+          978
+        ]
+      },
       "captures": [
         {
           "variant": "original",
-          "file": "jak2-original.png",
-          "sha256": "92a278671cea2b50a024f1cfc66db4391f816d02fd4150d5e6141a7ba9a89c63"
+          "sourcePngSha256": "e9a9116a6a877e224054f3ddd7913a4a4aac2bec4c756e1a41ebe7cb182b271f",
+          "sourceComparisonPanelRect": [
+            0,
+            48,
+            530,
+            978
+          ]
         },
         {
           "variant": "cinematic",
-          "file": "jak2-cinematic.png",
-          "sha256": "98cfe7c55eab0b20b4ec890724f8e0c718e162e14458f861e2a6aff2ac733253"
+          "sourcePngSha256": "aef29f479af74cfbdfbb8d752f3489064170b8d76836dace9ccd25597406fdf7",
+          "sourceComparisonPanelRect": [
+            542,
+            48,
+            1072,
+            978
+          ]
         }
       ],
-      "captureNote": "OpenGOAL v0.3.9, EU; stable 0.3.0 model code. Matched frontal pose, camera and lighting, with native facial callbacks retained. Background actor timing differs.",
-      "pairLandmarks": {
-        "centreX": 960,
-        "subjectTop": 96,
-        "bootBaseline": 840
-      },
+      "captureNote": "OpenGOAL v0.3.9, EU. Matched native pose and camera. Original and cinematic panel pixels are extracted exactly from the current game comparison.",
       "outputs": {
         "comparison": {
           "file": "jak2-comparison.webp",
@@ -159,18 +300,47 @@
             640,
             640
           ],
-          "sharedSourceCrop": [
-            753.9280575539568,
-            69.23741007194245,
-            1166.071942446043,
-            866.7625899280575
+          "sharedScale": 0.5811320754716981,
+          "sharedSourcePanelDimensions": [
+            530,
+            930
           ],
-          "sharedScale": 0.7473118279569892,
-          "subjectTop": 56,
-          "bootBaseline": 612,
+          "resizedPanelDimensions": [
+            308,
+            540
+          ],
+          "placements": [
+            {
+              "variant": "original",
+              "destinationRect": [
+                8,
+                60,
+                316,
+                600
+              ]
+            },
+            {
+              "variant": "cinematic",
+              "destinationRect": [
+                324,
+                60,
+                632,
+                600
+              ]
+            }
+          ],
+          "backgroundRGB": [
+            16,
+            24,
+            32
+          ],
+          "header": 48,
+          "gap": 8,
+          "margin": 8,
+          "bottomMargin": 28,
           "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "cbb56fd1cc08b09d98e758cf5ca53c5689079bfd98e434b78e275a0462670843",
-          "bytes": 390994
+          "sha256": "c378ea5dc34d4641c1fe532b608c5fca382beb2e8fe88f390eff80bcb676af27",
+          "bytes": 355592
         },
         "card": {
           "file": "jak2-card.webp",
@@ -178,18 +348,47 @@
             320,
             400
           ],
-          "sharedSourceCrop": [
-            789.5,
-            60.57142857142857,
-            1130.5,
-            884.2857142857143
+          "sharedScale": 0.29056603773584905,
+          "sharedSourcePanelDimensions": [
+            530,
+            930
           ],
-          "sharedScale": 0.45161290322580644,
-          "subjectTop": 40,
-          "bootBaseline": 376,
+          "resizedPanelDimensions": [
+            154,
+            270
+          ],
+          "placements": [
+            {
+              "variant": "original",
+              "destinationRect": [
+                4,
+                77,
+                158,
+                347
+              ]
+            },
+            {
+              "variant": "cinematic",
+              "destinationRect": [
+                162,
+                77,
+                316,
+                347
+              ]
+            }
+          ],
+          "backgroundRGB": [
+            16,
+            24,
+            32
+          ],
+          "header": 36,
+          "gap": 4,
+          "margin": 4,
+          "bottomMargin": 12,
           "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "ef8aab488c44663fa925345ed1ef59c6f444edd346c968f409bd3aa8ba8fea5c",
-          "bytes": 141402
+          "sha256": "af920bd02719a7e19699f8922baee7f9adcceac3f275d98210e980a71910e0a8",
+          "bytes": 105602
         },
         "cover": {
           "file": "jak2-cover.webp",
@@ -197,18 +396,47 @@
             1280,
             720
           ],
-          "sharedSourceCrop": [
-            586.811501597444,
-            65.09904153354633,
-            1333.188498402556,
-            868.5239616613419
+          "sharedScale": 0.6924731182795699,
+          "sharedSourcePanelDimensions": [
+            530,
+            930
           ],
-          "sharedScale": 0.8413978494623656,
-          "subjectTop": 62,
-          "bootBaseline": 688,
+          "resizedPanelDimensions": [
+            367,
+            644
+          ],
+          "placements": [
+            {
+              "variant": "original",
+              "destinationRect": [
+                138,
+                48,
+                505,
+                692
+              ]
+            },
+            {
+              "variant": "cinematic",
+              "destinationRect": [
+                774,
+                48,
+                1141,
+                692
+              ]
+            }
+          ],
+          "backgroundRGB": [
+            16,
+            24,
+            32
+          ],
+          "header": 48,
+          "gap": 8,
+          "margin": 8,
+          "bottomMargin": 28,
           "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "2fe930b7aa5581818511aa64990245c3bcf1c184e857fe6809e99e7f79896a8e",
-          "bytes": 801830
+          "sha256": "385677caebc9ac12aa3d95b5376bec508fdb5c9ece9d7311ccdbc8cafc7a562b",
+          "bytes": 486010
         }
       }
     },
@@ -291,5 +519,6 @@
         }
       }
     }
-  }
+  },
+  "colorAdjustments": false
 }
