@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "The Cinematic Legacy",
-  "lastUpdated": "2026-11-17T18:30:37Z",
+  "lastUpdated": "2026-11-18T21:37:10Z",
   "mods": {
     "jak1-cinematic-models": {
       "displayName": "Jak and Daxter: The Cinematic Legacy",
@@ -20,6 +20,18 @@
       "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak1-cover.webp",
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak1-card.webp",
       "versions": [
+        {
+          "version": "0.3.2",
+          "publishedDate": "2026-11-18T21:37:10Z",
+          "supportedGames": [
+            "jak1"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.2/windows-v0.3.2.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.2/linux-v0.3.2.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.2/macos-arm64-v0.3.2.tar.gz"
+          }
+        },
         {
           "version": "0.3.1",
           "publishedDate": "2026-11-15T15:47:52Z",
@@ -106,6 +118,18 @@
       "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-cover.webp",
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-card.webp",
       "versions": [
+        {
+          "version": "0.3.3",
+          "publishedDate": "2026-11-18T21:37:10Z",
+          "supportedGames": [
+            "jak3"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.3/windows-v0.3.3.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.3/linux-v0.3.3.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.3/macos-arm64-v0.3.3.tar.gz"
+          }
+        },
         {
           "version": "0.3.2",
           "publishedDate": "2026-11-17T18:30:37Z",
