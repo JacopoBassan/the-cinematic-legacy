@@ -80,7 +80,7 @@ Original on the left, cinematic on the right.
 
 ### Jak 1
 
-![Jak 1 comparison after the mouth fix](https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy-jak1/main/docs/comparisons/jak1/jak-front-ae65be5000ef.webp)
+![Jak 1 comparison after the mouth fix](../artwork/jak1-comparison.webp)
 
 ![Jak and Daxter in the final Naughty Dog intro pose, original and cinematic](https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy-jak1/main/docs/media/jak1-ndi-logo-comparison.webp)
 
