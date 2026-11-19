@@ -4,6 +4,8 @@ Play the Jak and Daxter trilogy with Naughty Dog’s cinematic character models 
 
 [Jak and Daxter](https://github.com/JacopoBassan/the-cinematic-legacy-jak1) · [Jak II](https://github.com/JacopoBassan/the-cinematic-legacy-jak2) · [Jak 3](https://github.com/JacopoBassan/the-cinematic-legacy-jak3)
 
+[![Installer downloads across all three games](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJacopoBassan%2Fthe-cinematic-legacy%2Fdownload-stats%2Fbadge.json)](#install)
+
 <table width="100%">
 <thead><tr><th width="33%">Jak and Daxter</th><th width="33%">Jak II</th><th width="33%">Jak 3</th></tr></thead>
 <tbody><tr>
