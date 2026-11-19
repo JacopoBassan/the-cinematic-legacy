@@ -10,4 +10,8 @@ The **Check launcher source** workflow validates the JSON against the [official 
 
 Each game repository holds its own installer builds and releases.
 
+## Comparison images
+
+When a release changes how a model looks, capture the affected comparisons again from that build before publishing. Use the same view in the original game and the mod. Update the gallery, its image manifest, and any docs or launcher artwork that show the old model as current.
+
 [Back to the main page](README.md)
