@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "The Cinematic Legacy",
-  "lastUpdated": "2026-11-19T07:19:18Z",
+  "lastUpdated": "2026-11-19T13:22:54Z",
   "mods": {
     "jak1-cinematic-models": {
       "displayName": "Jak and Daxter: The Cinematic Legacy",
@@ -111,6 +111,18 @@
       "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak2-cover.webp",
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak2-card.webp",
       "versions": [
+        {
+          "version": "0.3.6",
+          "publishedDate": "2026-11-19T13:22:54Z",
+          "supportedGames": [
+            "jak2"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.6/windows-v0.3.6.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.6/linux-v0.3.6.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.6/macos-arm64-v0.3.6.tar.gz"
+          }
+        },
         {
           "version": "0.3.5",
           "publishedDate": "2026-11-19T01:44:25Z",
