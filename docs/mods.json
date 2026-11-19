@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "The Cinematic Legacy",
-  "lastUpdated": "2026-11-19T01:20:31Z",
+  "lastUpdated": "2026-11-19T01:38:38Z",
   "mods": {
     "jak1-cinematic-models": {
       "displayName": "Jak and Daxter: The Cinematic Legacy",
@@ -20,6 +20,18 @@
       "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak1-cover.webp",
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak1-card.webp",
       "versions": [
+        {
+          "version": "0.3.4",
+          "publishedDate": "2026-11-19T01:38:37Z",
+          "supportedGames": [
+            "jak1"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.4/windows-v0.3.4.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.4/linux-v0.3.4.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak1/releases/download/v0.3.4/macos-arm64-v0.3.4.tar.gz"
+          }
+        },
         {
           "version": "0.3.3",
           "publishedDate": "2026-11-18T23:41:38Z",
@@ -88,6 +100,18 @@
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak2-card.webp",
       "versions": [
         {
+          "version": "0.3.4",
+          "publishedDate": "2026-11-19T01:38:37Z",
+          "supportedGames": [
+            "jak2"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.4/windows-v0.3.4.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.4/linux-v0.3.4.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.4/macos-arm64-v0.3.4.tar.gz"
+          }
+        },
+        {
           "version": "0.3.3",
           "publishedDate": "2026-11-18T23:41:13Z",
           "supportedGames": [
@@ -154,6 +178,18 @@
       "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-cover.webp",
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-card.webp",
       "versions": [
+        {
+          "version": "0.3.5",
+          "publishedDate": "2026-11-19T01:38:38Z",
+          "supportedGames": [
+            "jak3"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.5/windows-v0.3.5.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.5/linux-v0.3.5.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.5/macos-arm64-v0.3.5.tar.gz"
+          }
+        },
         {
           "version": "0.3.4",
           "publishedDate": "2026-11-19T01:20:31Z",
