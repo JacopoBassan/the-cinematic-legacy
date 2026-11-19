@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "The Cinematic Legacy",
-  "lastUpdated": "2026-11-19T13:22:54Z",
+  "lastUpdated": "2026-11-19T16:53:49Z",
   "mods": {
     "jak1-cinematic-models": {
       "displayName": "Jak and Daxter: The Cinematic Legacy",
@@ -112,6 +112,18 @@
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak2-card.webp",
       "versions": [
         {
+          "version": "0.3.7",
+          "publishedDate": "2026-11-19T16:50:16Z",
+          "supportedGames": [
+            "jak2"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.7/windows-v0.3.7.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.7/linux-v0.3.7.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak2/releases/download/v0.3.7/macos-arm64-v0.3.7.tar.gz"
+          }
+        },
+        {
           "version": "0.3.6",
           "publishedDate": "2026-11-19T13:22:54Z",
           "supportedGames": [
@@ -214,6 +226,18 @@
       "coverArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-cover.webp",
       "thumbnailArtUrl": "https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/artwork/jak3-card.webp",
       "versions": [
+        {
+          "version": "0.3.8",
+          "publishedDate": "2026-11-19T16:53:49Z",
+          "supportedGames": [
+            "jak3"
+          ],
+          "assets": {
+            "windows": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.8/windows-v0.3.8.zip",
+            "linux": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.8/linux-v0.3.8.tar.gz",
+            "macos": "https://github.com/JacopoBassan/the-cinematic-legacy-jak3/releases/download/v0.3.8/macos-arm64-v0.3.8.tar.gz"
+          }
+        },
         {
           "version": "0.3.7",
           "publishedDate": "2026-11-19T07:19:18Z",
