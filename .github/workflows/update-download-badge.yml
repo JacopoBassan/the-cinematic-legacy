@@ -24,6 +24,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
       - name: Count installer downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: python3 .github/scripts/update_download_badge.py "$RUNNER_TEMP/badge.json"
       - name: Publish badge data
         shell: bash

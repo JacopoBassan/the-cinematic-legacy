@@ -1,6 +1,7 @@
 """Build a Shields badge from the public installer asset counts."""
 
 import json
+import os
 from pathlib import Path
 import sys
 from urllib.request import Request, urlopen
@@ -8,6 +9,7 @@ from urllib.request import Request, urlopen
 
 def list_releases(game):
     repo = f"JacopoBassan/the-cinematic-legacy-{game}"
+    token = os.environ.get("GH_TOKEN")
     page = 1
     while True:
         url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page={page}"
@@ -15,6 +17,8 @@ def list_releases(game):
             "Accept": "application/vnd.github+json",
             "User-Agent": "The-Cinematic-Legacy-download-badge",
         })
+        if token:
+            request.add_unredirected_header("Authorization", f"Bearer {token}")
         with urlopen(request, timeout=30) as response:
             releases = json.load(response)
         if not isinstance(releases, list):
