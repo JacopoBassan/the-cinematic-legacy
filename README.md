@@ -93,6 +93,10 @@ I’ve put a lot of care into checking these models, though full playthroughs st
 >
 > [u/pcheartless on Reddit](https://www.reddit.com/r/jakanddaxter/comments/1xzmrdj/comment/19su98s8psorl/)
 
+> The best gift I could ask for the 25th anniversary. Thanks Jacopo, much love if you read this!
+>
+> [Sinaa on X](https://x.com/Sinaa90s/status/2123136010926313968)
+
 ## Models and forms
 
 ✅ Included in the mod.
