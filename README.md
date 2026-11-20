@@ -2,7 +2,7 @@
 
 Play the Jak and Daxter trilogy with Naughty Dog’s cinematic character models during normal gameplay.
 
-[Jak and Daxter](https://github.com/JacopoBassan/the-cinematic-legacy-jak1) · [Jak II](https://github.com/JacopoBassan/the-cinematic-legacy-jak2) · [Jak 3](https://github.com/JacopoBassan/the-cinematic-legacy-jak3)
+[Jak and Daxter](https://github.com/JacopoBassan/the-cinematic-legacy-jak1) · [Jak II](https://github.com/JacopoBassan/the-cinematic-legacy-jak2) · [Jak 3](https://github.com/JacopoBassan/the-cinematic-legacy-jak3) · [Install](#install)
 
 [![Installer downloads across all three games](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJacopoBassan%2Fthe-cinematic-legacy%2Fdownload-stats%2Fbadge.json)](#install)
 
@@ -16,6 +16,52 @@ Play the Jak and Daxter trilogy with Naughty Dog’s cinematic character models 
 </table>
 
 [Behind the scenes](docs/behind-the-scenes.md)
+
+## Install
+
+Requires official OpenGOAL **v0.3.9**. For Jak 1, install vanilla Jak II in the same launcher first.
+
+1. Install the vanilla game in [OpenGOAL Launcher](https://opengoal.dev), then close the game.
+2. Open **Settings > Mods**, paste this source URL, and press **Add**:
+
+   ```text
+   https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/docs/mods.json
+   ```
+
+3. Return to the game and open **Features > Mods**. Select **The Cinematic Legacy** for that game.
+4. Press **Install**, wait for setup, then press **Play**.
+
+The installer builds the replacements from your installed game files. No game models or textures are included. Python is included.
+
+### Compatibility
+
+<table>
+<thead><tr><th scope="col">Game</th><th scope="col">PAL disc</th><th scope="col">USA disc</th><th scope="col">Refreshed HUD</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak1/blob/main/docs/installation.md">Jak 1</a></th><td><code>SCES-50361</code></td><td><code>SCUS-97124</code> · Black Label</td><td>1.0</td></tr>
+<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak2/blob/main/docs/installation.md">Jak II</a></th><td><code>SCES-51608</code></td><td><code>SCUS-97265</code> · v2.01 tested</td><td>1.2</td></tr>
+<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak3/blob/main/docs/installation.md">Jak 3</a></th><td><code>SCES-52460</code></td><td><code>SCUS-97330</code></td><td>1.1</td></tr>
+</tbody>
+</table>
+
+**Using Refreshed HUD?** Enable the pack under **Features > Texture Packs** and click **Apply Texture Changes** before installing the mod. Run mod setup again if you change the pack.
+
+<table>
+<thead><tr><th scope="col">Platform</th><th scope="col">Launcher install</th><th scope="col">Gameplay checks</th></tr></thead>
+<tbody>
+<tr><th scope="row">Windows x64</th><td>✅ Tested</td><td>✅ Tested</td></tr>
+<tr><th scope="row">macOS · Apple Silicon</th><td>✅ Tested</td><td>✅ Tested</td></tr>
+<tr><th scope="row">Linux x64</th><td>✅ Tested</td><td>✅ Tested</td></tr>
+</tbody>
+</table>
+
+Gameplay checks cover selected scenes and animations.
+
+**Saves:** Vanilla OpenGOAL saves are not imported automatically. You can copy your existing progress into the mod’s save folder and keep the original. [How to copy your saves](docs/copy-saves.md).
+
+If you used **Add from File** before, keep that install until you have copied its saves to the source install. [Save copy guide](docs/copy-saves.md#from-an-earlier-local-install).
+
+Manual downloads and game requirements: [Jak and Daxter](https://github.com/JacopoBassan/the-cinematic-legacy-jak1#install) · [Jak II](https://github.com/JacopoBassan/the-cinematic-legacy-jak2#install) · [Jak 3](https://github.com/JacopoBassan/the-cinematic-legacy-jak3#install).
 
 ## Why I made this
 
@@ -34,6 +80,18 @@ For Jak 1, the more detailed models come from Jak II, including Jak’s classic 
 I’ve put a lot of care into checking these models, though full playthroughs still need testing. If I’ve missed anything, just let me know and I’ll get it fixed! I might already be working on a few little touch-ups here and there.
 
 [A look behind the scenes](docs/behind-the-scenes.md)
+
+### From the community
+
+> This is answering a childhood question I had as a kid.
+>
+> "Why don't Jak and Daxter look the same in cutscenes whilst I play?!"
+>
+> [u/RecklessRoller on Reddit](https://www.reddit.com/r/jakanddaxter/comments/1xzmrdj/comment/19su1vtx7yzxe/)
+
+> childhood fucking complete
+>
+> [u/pcheartless on Reddit](https://www.reddit.com/r/jakanddaxter/comments/1xzmrdj/comment/19su98s8psorl/)
 
 ## Models and forms
 
@@ -60,50 +118,6 @@ I’ve put a lot of care into checking these models, though full playthroughs st
 </table>
 
 ¹ Jak II: stadium Samos and Keira. Their other scenes already use cinematic models. ² Jak 3: Sig’s rider and convoy models.
-
-## Install
-
-Requires official OpenGOAL **v0.3.9**. For Jak 1, install vanilla Jak II in the same launcher first.
-
-<table>
-<thead><tr><th scope="col">Game</th><th scope="col">PAL disc</th><th scope="col">USA disc</th><th scope="col">Refreshed HUD</th></tr></thead>
-<tbody>
-<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak1/blob/main/docs/installation.md">Jak 1</a></th><td><code>SCES-50361</code></td><td><code>SCUS-97124</code> · Black Label</td><td>1.0</td></tr>
-<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak2/blob/main/docs/installation.md">Jak II</a></th><td><code>SCES-51608</code></td><td><code>SCUS-97265</code> · v2.01 tested</td><td>1.2</td></tr>
-<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak3/blob/main/docs/installation.md">Jak 3</a></th><td><code>SCES-52460</code></td><td><code>SCUS-97330</code></td><td>1.1</td></tr>
-</tbody>
-</table>
-
-**Using Refreshed HUD?** Enable the pack under **Features > Texture Packs** and click **Apply Texture Changes** before installing the mod. Run mod setup again if you change the pack.
-
-<table>
-<thead><tr><th scope="col">Platform</th><th scope="col">Launcher install</th><th scope="col">Gameplay checks</th></tr></thead>
-<tbody>
-<tr><th scope="row">Windows x64</th><td>✅ Tested</td><td>✅ Tested</td></tr>
-<tr><th scope="row">macOS · Apple Silicon</th><td>✅ Tested</td><td>✅ Tested</td></tr>
-<tr><th scope="row">Linux x64</th><td>🧪 Experimental</td><td>➖ Not tested</td></tr>
-</tbody>
-</table>
-
-Gameplay checks cover selected scenes and animations. Linux launcher import, model conversion and gameplay are not yet validated.
-
-1. Install the vanilla game in [OpenGOAL Launcher](https://opengoal.dev), then close the game.
-2. Open **Settings > Mods**, paste this source URL, and press **Add**:
-
-   ```text
-   https://raw.githubusercontent.com/JacopoBassan/the-cinematic-legacy/main/docs/mods.json
-   ```
-
-3. Return to the game and open **Features > Mods**. Select **The Cinematic Legacy** for that game.
-4. Press **Install**, wait for setup, then press **Play**.
-
-The installer builds the replacements from your installed game files. No game models or textures are included. Python is included.
-
-**Saves:** Vanilla OpenGOAL saves are not imported automatically. You can copy your existing progress into the mod’s save folder and keep the original. [How to copy your saves](docs/copy-saves.md).
-
-If you used **Add from File** before, keep that install until you have copied its saves to the source install. [Save copy guide](docs/copy-saves.md#from-an-earlier-local-install).
-
-Manual downloads and game requirements: [Jak and Daxter](https://github.com/JacopoBassan/the-cinematic-legacy-jak1#install) · [Jak II](https://github.com/JacopoBassan/the-cinematic-legacy-jak2#install) · [Jak 3](https://github.com/JacopoBassan/the-cinematic-legacy-jak3#install).
 
 ## Development
 
