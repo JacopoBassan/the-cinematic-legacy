@@ -1,0 +1,33 @@
+name: Check OpenGOAL updates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/scripts/check_opengoal_updates.py
+      - .github/workflows/check-opengoal-updates.yml
+  schedule:
+    - cron: '37 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: opengoal-updates
+
+jobs:
+  check:
+    if: github.repository == 'JacopoBassan/the-cinematic-legacy' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Review upstream release tags
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python3 .github/scripts/check_opengoal_updates.py
