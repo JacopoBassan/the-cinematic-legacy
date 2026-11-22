@@ -9,9 +9,9 @@ Play the Jak and Daxter trilogy with Naughty Dog’s cinematic character models 
 <table width="100%">
 <thead><tr><th width="33%">Jak and Daxter</th><th width="33%">Jak II</th><th width="33%">Jak 3</th></tr></thead>
 <tbody><tr>
-<td><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak1/blob/main/docs/comparisons/jak1.md"><img src="artwork/jak1-comparison.webp" alt="Jak and Daxter: original left, cinematic right" width="300"></a></td>
-<td><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak2/blob/main/docs/comparisons/jak2.md"><img src="artwork/jak2-comparison.webp" alt="Jak II: original left, cinematic right" width="300"></a></td>
-<td><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak3/blob/main/docs/comparisons/jak3.md"><img src="artwork/jak3-comparison.webp" alt="Jak 3: original left, cinematic right" width="300"></a></td>
+<td><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak1/blob/main/docs/comparisons/jak1.md"><img src="artwork/jak1-comparison.jpg" alt="Jak and Daxter: original left, cinematic right" width="300"></a></td>
+<td><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak2/blob/main/docs/comparisons/jak2.md"><img src="artwork/jak2-comparison.jpg" alt="Jak II: original left, cinematic right" width="300"></a></td>
+<td><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak3/blob/main/docs/comparisons/jak3.md"><img src="artwork/jak3-comparison.jpg" alt="Jak 3: original left, cinematic right" width="300"></a></td>
 </tr></tbody>
 </table>
 

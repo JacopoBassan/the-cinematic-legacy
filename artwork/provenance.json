@@ -2,7 +2,7 @@
   "imageGeneration": false,
   "composition": "Original left; cinematic right. Same crop and scale for both variants.",
   "resizing": "Downscale only, Lanczos; the same scale is applied to both panels in each output.",
-  "encoding": "Lossless WebP",
+  "encoding": "Gallery comparisons use progressive JPEG at quality 94 with full color resolution. Launcher artwork uses lossless WebP.",
   "layout": {
     "backgroundRGB": [
       16,
@@ -80,7 +80,8 @@
         "dimensions": [
           892,
           868
-        ]
+        ],
+        "commit": "ab2499d9eba3c33bc4b92b4bc748de20f5e31064"
       },
       "captures": [
         {
@@ -104,11 +105,11 @@
           ]
         }
       ],
-      "captureNote": "OpenGOAL v0.3.9, EU. Matched native pose and camera. Original and cinematic panel pixels are extracted exactly from the current game comparison.",
+      "captureNote": "OpenGOAL v0.3.9, EU. Matched native pose and camera. Original and cinematic panel pixels are extracted exactly from the lossless game comparison at the recorded commit.",
       "sourceCaptureTime": "17:00",
       "outputs": {
         "comparison": {
-          "file": "jak1-comparison.webp",
+          "file": "jak1-comparison.jpg",
           "dimensions": [
             640,
             640
@@ -151,9 +152,22 @@
           "gap": 8,
           "margin": 8,
           "bottomMargin": 28,
-          "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "9cd04c0ad14119f10a27b34de534995a3a7e3d067c23ff52c89c4d0505d3959f",
-          "bytes": 442946
+          "decodedPixelsMatchCompositionExactly": false,
+          "sha256": "1fd43961060a72992911db2bae6eff4613ed2975085a0939e0785c31a1f46184",
+          "bytes": 235127,
+          "sourceWebP": {
+            "path": "artwork/jak1-comparison.webp",
+            "commit": "987b67f14b06b0c8b30ed0d0ac967481806043a6",
+            "sha256": "9cd04c0ad14119f10a27b34de534995a3a7e3d067c23ff52c89c4d0505d3959f"
+          },
+          "outputEncoding": {
+            "format": "JPEG",
+            "quality": 94,
+            "subsampling": 0,
+            "progressive": true,
+            "optimize": true,
+            "lossless": false
+          }
         },
         "card": {
           "file": "jak1-card.webp",
@@ -268,7 +282,8 @@
         "dimensions": [
           1072,
           978
-        ]
+        ],
+        "commit": "741a9a694fca273e919507118c75a84e0774ac18"
       },
       "captures": [
         {
@@ -292,10 +307,10 @@
           ]
         }
       ],
-      "captureNote": "OpenGOAL v0.3.9, EU. Matched native pose and camera. Original and cinematic panel pixels are extracted exactly from the current game comparison.",
+      "captureNote": "OpenGOAL v0.3.9, EU. Matched native pose and camera. Original and cinematic panel pixels are extracted exactly from the lossless game comparison at the recorded commit.",
       "outputs": {
         "comparison": {
-          "file": "jak2-comparison.webp",
+          "file": "jak2-comparison.jpg",
           "dimensions": [
             640,
             640
@@ -338,9 +353,22 @@
           "gap": 8,
           "margin": 8,
           "bottomMargin": 28,
-          "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "c378ea5dc34d4641c1fe532b608c5fca382beb2e8fe88f390eff80bcb676af27",
-          "bytes": 355592
+          "decodedPixelsMatchCompositionExactly": false,
+          "sha256": "64f894aa2ffda6306fce3b0ea163f8a13eb24fb7fc7e5a8ac4cbc42684085ff7",
+          "bytes": 158275,
+          "sourceWebP": {
+            "path": "artwork/jak2-comparison.webp",
+            "commit": "987b67f14b06b0c8b30ed0d0ac967481806043a6",
+            "sha256": "c378ea5dc34d4641c1fe532b608c5fca382beb2e8fe88f390eff80bcb676af27"
+          },
+          "outputEncoding": {
+            "format": "JPEG",
+            "quality": 94,
+            "subsampling": 0,
+            "progressive": true,
+            "optimize": true,
+            "lossless": false
+          }
         },
         "card": {
           "file": "jak2-card.webp",
@@ -461,7 +489,7 @@
       },
       "outputs": {
         "comparison": {
-          "file": "jak3-comparison.webp",
+          "file": "jak3-comparison.jpg",
           "dimensions": [
             640,
             640
@@ -475,9 +503,22 @@
           "sharedScale": 0.702020202020202,
           "subjectTop": 56,
           "bootBaseline": 612,
-          "decodedPixelsMatchCompositionExactly": true,
-          "sha256": "10e9b5f29b56ae9c3da0142428c256f902aee30140e897be1ce637cac7b386fc",
-          "bytes": 470168
+          "decodedPixelsMatchCompositionExactly": false,
+          "sha256": "7818d2bfe8d2f52ac74ae1f72a45eec741f010308c6d86280d52c2ea69665e99",
+          "bytes": 209300,
+          "sourceWebP": {
+            "path": "artwork/jak3-comparison.webp",
+            "commit": "987b67f14b06b0c8b30ed0d0ac967481806043a6",
+            "sha256": "10e9b5f29b56ae9c3da0142428c256f902aee30140e897be1ce637cac7b386fc"
+          },
+          "outputEncoding": {
+            "format": "JPEG",
+            "quality": 94,
+            "subsampling": 0,
+            "progressive": true,
+            "optimize": true,
+            "lossless": false
+          }
         },
         "card": {
           "file": "jak3-card.webp",
