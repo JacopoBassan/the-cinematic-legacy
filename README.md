@@ -38,7 +38,7 @@ The installer builds the replacements from your installed game files. No game mo
 <table>
 <thead><tr><th scope="col">Game</th><th scope="col">PAL disc</th><th scope="col">USA disc</th><th scope="col">Refreshed HUD</th></tr></thead>
 <tbody>
-<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak1/blob/main/docs/installation.md">Jak 1</a></th><td><code>SCES-50361</code></td><td><code>SCUS-97124</code> · Black Label</td><td>1.0</td></tr>
+<tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak1/blob/main/docs/installation.md">Jak 1</a></th><td><code>SCES-50361</code></td><td><code>SCUS-97124</code> · Black Label and Greatest Hits</td><td>1.0</td></tr>
 <tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak2/blob/main/docs/installation.md">Jak II</a></th><td><code>SCES-51608</code></td><td><code>SCUS-97265</code> · v2.01 tested</td><td>1.2</td></tr>
 <tr><th scope="row"><a href="https://github.com/JacopoBassan/the-cinematic-legacy-jak3/blob/main/docs/installation.md">Jak 3</a></th><td><code>SCES-52460</code></td><td><code>SCUS-97330</code></td><td>1.1</td></tr>
 </tbody>
